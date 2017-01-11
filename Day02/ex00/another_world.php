@@ -4,8 +4,8 @@
 function ft_epur($str)
 {
 $str = trim($str);
-$str = ereg_replace('`\t{1,}`', ' ', $str);
-$str = ereg_replace(' {2,}', ' ', $str);
+$str = preg_replace('`\t`', ' ', $str);
+$str = preg_replace('` {2,}`', ' ', $str);
 return ($str);
 }
 
