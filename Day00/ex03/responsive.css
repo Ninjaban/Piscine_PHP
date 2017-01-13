@@ -1,0 +1,21 @@
+	  IMG {height: auto; width: 30vw;}
+	  H1 {text-align: center; font-size: 2vw;}
+	  H2 {text-align: center; font-size: 2vw;}
+	  table {border-collapse: collapse;}
+	  TD {width: 5vw;}
+
+	  .draw {border: 1px solid black;}
+	  .name {text-align: center; font-size: 1vw;}
+	  .number {text-align: left; margin-right: 1vw; font-size: 1vw;}
+	  .poid {float: right; clear: right; font-size: 1vw;}
+
+	  #green {background-color: green;}
+	  #cyan {background-color: azure;}
+	  #red {background-color: red;}
+	  #sable {background-color: bisque;}
+	  #yellow {background-color: yellow;}
+	  #brown {background-color: DarkSalmon;}
+	  #grey {background-color: Gainsboro;}
+	  #rose {background-color: LightPink;}
+	  #lorange {background-color: SandyBrown;}
+	  #orange {background-color: coral;}
