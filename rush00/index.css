@@ -1,0 +1,368 @@
+/*
+All
+ */
+
+body {	font-family: 'Raleway', sans-serif;  }
+
+/*
+Banderole
+ */
+
+#menu-top {
+	position: absolute;
+	padding: 8px 32px;
+	background-color: #0066A9;
+	height: 50px;
+	left: -10px;
+	top: -5px;
+	width: calc(100vw - 54px);
+}
+
+/*
+Signin and Login
+ */
+
+#menu-login,
+#menu-signin,
+#menu-logout,
+#menu-cart,
+#menu-admin,
+#menu-profile {
+	position: absolute;
+	top: 17px;
+}
+
+#menu-login a,
+#menu-signin a,
+#menu-logout a,
+#menu-cart a,
+#menu-admin a,
+#menu-profile a {
+	text-decoration: none;
+	color: #0E7BC4;
+	font-weight: 600;
+}
+
+#menu-login:hover a,
+#menu-signin:hover a,
+#menu-logout:hover a,
+#menu-cart:hover a,
+#menu-admin:hover a,
+#menu-profile:hover a {
+	background-color: #0E7BC4;
+	color: white;
+}
+
+#menu-login { right: 50px; }
+#menu-logout { right: 50px; }
+#menu-signin { right: 165px; }
+#menu-admin { right: 178px; }
+#menu-profile { right: 178px; }
+
+.button {
+	padding: 8px 32px;
+	border-radius: 10px;
+	display: inline-block;
+	background-color: white;
+	border: 2px solid white;
+}
+
+.button:hover {
+	border-color: white;
+	background-color: #0E7BC4;
+}
+
+.content {
+	margin-top: 70px;
+}
+
+/*
+Name
+ */
+
+#menu-name {
+	position: absolute;
+	top: -3;
+	left: 120px;
+	color: white;
+}
+
+/*
+Menu-deroulant
+ */
+
+#menu-deroulant > li img {
+	width: 42px;
+	height: 42px;
+}
+
+#menu-deroulant li {
+	display: inline-block;
+	position: relative;
+	padding: 8px 8px;
+	border-radius: 10px 10px 0 0;
+	color: White;
+}
+
+#menu-deroulant ul {
+	position: absolute;
+	overflow: hidden;
+	max-height: 0;
+	left: 0;
+	right: -200px;
+	top: 57px;
+	z-index: 1000;
+	transition: 1.2s all .0s;
+}
+
+#menu-deroulant ul a,
+#menu-deroulant a li {
+	transition: 1.2s all .0s;
+	display: inherit;
+	border-radius: 0;
+	color: White;
+}
+
+#menu-deroulant, #menu-deroulant ul {
+	padding: 0;
+	margin: 0;
+}
+
+#menu-deroulant ul a:last-child { border-radius: 0 0 10px 10px; }
+#menu-deroulant li:hover ul { max-height: 100em; }
+#menu-deroulant > li { background-color: #0E7BC4; }
+#menu-deroulant ul a { background-color: #0E7BC4; }
+
+#menu-deroulant > li:hover,
+#menu-deroulant ul a:hover {
+	background-color: #0E7BC4;
+}
+
+#menu-deroulant li a:hover,
+#menu-deroulant li a li:hover {
+	font-weight: 600;
+	padding-left: 50px;
+}
+
+#menu-deroulant a {
+	text-decoration: none;
+	color: white;
+}
+
+/*
+Cart table
+ */
+
+.cart-table {
+	position: relative;
+	width: 33%;
+	left: 33%;
+	right : 33%;
+}
+
+.cart-title {
+	background-color: #0E7BC4;
+}
+
+.cart-title:hover {
+	background-color: #0E7BC4;
+}
+.cart-title td {
+	color: white;
+	font-weight: 600;
+	border: 2px solid #0a5a91;
+	padding: 5px 32px;
+}
+
+.cart-hide {
+	border: 0 hidden white;
+}
+
+.cart-foot:hover {
+	background-color: white;
+}
+
+.cart-button a {
+	text-decoration: none;
+	color: white;
+}
+
+.cart-button:hover a {
+	color: #0E7BC4;
+}
+
+.cart-button {
+	padding: 8px 32px;
+	border-radius: 10px;
+	background-color: #0E7BC4;
+	border: 2px solid white;
+}
+
+.cart-button:hover {
+	border-color: #0E7BC4;
+	background-color: white;
+}
+
+.cart-table td > a {
+	text-decoration: none;
+	color: black;
+}
+
+/*
+menu product
+ */
+
+.product-menu {
+	float: left;
+	position: fixed;
+	top: 200px;
+	background-color: #0E7BC4;
+	list-style: none;
+	transition: 1.2s all .0s;
+	display: inline-block;
+	padding: 8px 32px;
+	border: 2px solid #0a5a91;
+	border-radius: 0 10px 10px 0;
+	left: -5px;
+}
+
+.product-menu li ul {
+	max-height: 0;
+	overflow: hidden;
+	transition: 1.6s all .2s;
+	padding-left: 0;
+}
+
+.product-menu li > a {
+	text-decoration: none;
+	color: white;
+}
+
+.product-menu li:hover > a {
+	text-decoration: none;
+	color: #D4D4D4;
+}
+
+.product-menu li:hover > ul {
+	max-height: 100em;
+}
+
+.product-menu li ul > li {
+	transition: 1.6s all .2s;
+}
+
+.product-menu li ul:hover > li {
+	padding-left: 40px;
+}
+
+.product-menu ul {
+	list-style: none;
+}
+
+/*
+product table
+ */
+
+.product-table {
+	position: relative;
+	width: 33%;
+	left: 33%;
+	right : 33%;
+}
+
+.product-table td > a {
+	text-decoration: none;
+	color: black;
+}
+
+.product-table td > .btn {
+	color: white;
+}
+
+.product-title {
+	background-color: #0E7BC4;
+}
+
+.product-title a {
+	text-decoration: none;
+	color: black;
+}
+
+.product-title:hover {
+	background-color: #0E7BC4;
+}
+
+.product-table img {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.addtocart-button a {
+	text-decoration: none;
+	color: white;
+}
+
+.addtocart-button:hover a {
+	color: #0E7BC4;
+}
+
+.addtocart-button {
+	padding: 8px 16px;
+	border-radius: 10px;
+	background-color: #0E7BC4;
+	border: 2px solid white;
+}
+
+.addtocart-button:hover {
+	border-color: #0E7BC4;
+	background-color: white;
+}
+
+.product-details {
+	text-align: center;
+}
+
+.product-details img{
+	max-width: 250px;
+	max-height: 250px;
+}
+
+.btn-base {
+	background-color: white;
+	color: #0a5a91 !important;
+	transition: 1s all 0.1s;
+}
+
+.btn-base:hover {
+	color: white !important;
+}
+
+/*
+Footer
+ */
+
+#blank {
+	height: 80px;
+	width: 95vw;
+	background-color: white;
+	float: left;
+}
+
+footer {
+	background-color: #0066A9;
+	position: fixed;
+	bottom: 0px;
+	padding: 8px 32px;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+	border-top: 5px solid #0E7BC4;
+	clear: both;
+	color: white;
+}
+
+footer div {
+	position: fixed;
+	right: 40px;
+	bottom: 20px;
+}

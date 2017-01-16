@@ -1,0 +1,181 @@
+nav ul { margin-bottom: 0 ; }
+
+nav li {
+    list-style: none;
+    background: #084874;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .active { background: #0f87d7 ; }
+nav .grayed_out {   background: rgba(0, 0, 0, 0.48); }
+nav .grayed_out a { cursor: not-allowed; }
+
+.tab-content {
+    border: 2px solid #0f87d7 ;
+    padding: 5px;
+}
+
+th, td {
+    border: 1px solid lightgray;
+    padding: 3px;
+    text-align: center;
+}
+
+th {
+    color: white;
+    border: 2px solid #0a5a91;
+    background-color: #0E7BC4;
+}
+
+tr:hover { background: #e5e5e5; }
+
+input[type="text"],
+input[type="password"] {
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid lightgray;
+}
+
+input[type="checkbox"] { margin-left: 10px; }
+
+select {
+    border: 1px solid lightgray;
+    font-size: inherit;
+    font-family: inherit;
+    border-radius: 0;
+}
+
+input[type="submit"] {
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid lightgray;
+    background: white;
+}
+
+input[type="number"] {
+    font-size: inherit;
+    font-family: inherit;
+    width: 80px;
+    text-align: right;
+}
+
+textarea {
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid lightgray;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.btn {
+    background: lightgray;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 2px 9px;
+}
+
+.btn:hover      { background: gray; }
+.btn-del        { background: #cc3024; }
+.btn-del:hover  { background: #a3261d; }
+.btn-act        { background: #0f87d7; }
+.btn-act:hover  { background: #0a5a91; }
+.btn-out        { cursor: not-allowed; }
+
+.success {
+    background: rgb(180, 230, 180);
+    border: 1px solid green;
+    padding: 5px;
+    color: green;
+    border-radius: 5px;
+    margin-bottom: 17px;
+}
+
+.error {
+    background: rgb(230, 180, 180);
+    border: 1px solid maroon;
+    padding: 5px;
+    color: maroon;
+    border-radius: 5px;
+    margin-bottom: 17px;
+}
+
+.notice {
+    background: #cfe2ff;
+    border: 1px solid #0a5a91;
+    padding: 5px;
+    color: #0a5a91;
+    border-radius: 5px;
+    margin-bottom: 17px;
+}
+
+img.slave_of_the_week {
+    float: left;
+    mex-width: 45%;
+    max-height: 250px;
+    margin: 0px 10px 0 0;
+    border: 4px solid #0066a9;
+}
+
+div#weekly_slave {
+    float: left;
+    width: 100%;
+}
+
+div#certification {
+    float: right;
+    background: #0066a9;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: right;
+    color: white;
+}
+
+img.faire-trade {
+    float: right;
+    height: 161px;
+    border: 4px solid white;
+    background-color: white;
+    margin-left:10px;
+}
+
+div#why {
+    padding: 10px 0 0 0;
+    float: left;
+}
+
+img#whyslave {
+    border: 4px solid #0066a9;
+    float: left;
+    margin-right: 10px;
+}
+
+.progress {
+    width: calc(100% - 138px);
+    border: 2px solid white;
+    margin-top: 20px;
+    height: 20px;
+}
+
+.progress-inside {
+    background-color: white;
+    height: 100%;
+    color: #0066a9;
+    font-weight: 700;
+    text-align: center;
+}
+
+.progress-inside {
+    color: white;
+    transition: 1s color;
+}
+.progress-inside:hover { color: #0066a9; }
